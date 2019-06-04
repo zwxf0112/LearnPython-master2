@@ -9,8 +9,8 @@ from functools import partial, reduce
 # print(a_list)
 
 # 字典解析
-a_dict = {"%d^2" % item: item**2 for item in range(5)}
-print(a_dict)
+#a_dict = {"%d^2" % item: item**2 for item in range(5)}
+#print(a_dict)
 
 # 生成器
 a_generator = (item**2 for item in range(5))
