@@ -5,8 +5,8 @@ from operator import add
 from functools import partial, reduce
 
 # 列表解析
-a_list = [item**2 for item in range(5)]
-print(a_list)
+# a_list = [item**2 for item in range(5)]
+# print(a_list)
 
 # 字典解析
 a_dict = {"%d^2" % item: item**2 for item in range(5)}
